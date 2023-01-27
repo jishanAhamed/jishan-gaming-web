@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styel.css">
+    <title>jishan gaming web</title>
+</head>
+<body>
+
+    <div class="contanir">
+        <div class="navbar">
+            <img src="images/logo.png" class="logo">
+            <nav>
+                <ul id="menulist">
+                    <li><a href="https://www.facebook.com/profile.php?id=100072812555167">Game Colltollers</a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100072812555167">VR Accessories</a></li>
+                    <li><a id="jishan" href="https://www.facebook.com/profile.php?id=100072812555167"><span><sud>Create By</sud></span> Jishan Ahmmed</a></li>
+                    <li><a href="">Others</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" class="menu-img" onclick="togglemenu()">
+        </div>
+
+        <div class="hader-text">
+            <div class="text-1">
+                <h2>PS V2 <br>Dualshock</h2>
+                <h3>Wireless Controller for playstation 4</h3>
+                <p>(Compatible/Generic</p>
+                <h4>$32.50</h4>
+                <button type="button">Buy Now <img src="images/arrow.png"></button>
+            </div>
+            <div class="text-2">
+                <img src="images/controller.png" class="controller-img">
+                <div class="controller-color-box"></div>
+                <div class="add-button">
+                    <img src="images/add.png">
+                    <p><small>Add To Card</small></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="Social-media">
+            <a href="https://www.facebook.com/profile.php?id=100072812555167"><img src="images/fb.png"></a>
+            <a href="https://www.facebook.com/profile.php?id=100072812555167"><img src="images/tw.png"></a>
+            <a href="https://www.facebook.com/profile.php?id=100072812555167"><img src="images/ig.png"></a>
+        </div>
+    </div>
+
+    <script>
+        var menulist = document.getElementById("menulist")
+        menulist.style.maxHeight = "0px";
+        function togglemenu(){
+            if(menulist.style.maxHeight == "0px")
+            {
+                menulist.style.maxHeight = "130px"
+            }
+            else{
+                menulist.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+</html>
