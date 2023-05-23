@@ -146,12 +146,20 @@ button:hover{
 }
 .Social-media img{
     height: 20px;
-    margin: 20px;
+    margin: 30px;
     cursor: pointer;
+    transition: all 1s;
 }
 .Social-media{
     text-align: center;
 }
+.Social-media img:hover{
+background: #fb5283;
+padding: 10px;
+border-radius: 10px;
+}
+
+
 
 
 
